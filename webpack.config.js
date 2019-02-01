@@ -1,6 +1,6 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
-const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const path = require('path')
+const HtmlWebpackPlugin = require('html-webpack-plugin')
+const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 
 module.exports = {
   entry: './src/js/main.js',
@@ -17,12 +17,6 @@ module.exports = {
   },
   module: {
     rules: [
-      {
-        enforce: 'pre',
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: 'eslint-loader',
-      },
       {
         test: /\.js$/,
         exclude: /node_modules/,
@@ -41,7 +35,6 @@ module.exports = {
           'css-loader',
           'postcss-loader',
           'sass-loader'
-          
         ]
       }
     ]
@@ -51,7 +44,7 @@ module.exports = {
       template: 'src/index.html'
     }),
     new MiniCssExtractPlugin({
-      filename: 'main.css',
+      filename: 'main.css'
     })
   ]
-};
+}
