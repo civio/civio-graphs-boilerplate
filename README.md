@@ -1,6 +1,6 @@
 # Civio Graphs Boilerplate
 
-Civio graphs boilerplate with Webpack 4, Babel 7, Sass, linting & hot reload
+Civio graphs boilerplate with Webpack 4, Babel 7, Sass & hot reload
 
 ## Installation
 
@@ -14,8 +14,7 @@ npm install
 
 - ES6 support with [Babel 7](https://babeljs.io/)
 - CSS style with [Sass](https://sass-lang.com/) & [Autoprefixer](https://github.com/postcss/autoprefixer) via [sass-loader](https://github.com/webpack-contrib/sass-loader)
-- Linting with [ESLint](https://eslint.org/) via [eslint-loader](https://github.com/webpack-contrib/eslint-loader)
-- Live reload local server for development with [Webpack dev server](https://github.com/webpack/webpack-dev-server) 
+- Live reload local server for development with [Webpack dev server](https://github.com/webpack/webpack-dev-server) & [css-hot-loader](https://github.com/shepherdwind/css-hot-loader)
 
 ## Commands
 
@@ -27,4 +26,4 @@ Start development server on `localhost:5000`.
 
 ### npm run build
 
-Generate `dist` folder with `index.html`, `main.css` and `main.js` 
+Generate `dist` folder with `index.html`, `main.css` and `main.js`
