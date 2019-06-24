@@ -1,6 +1,8 @@
 # Civio Graphs Boilerplate
 
-Civio graphs boilerplate with Webpack 4, Babel 7, Sass & hot reload
+Civio graphs boilerplate with Webpack 4, Babel 7, Sass & hot reload.
+
+Used for graphs development in [`civio-graphs`](https://github.com/civio/civio-graphs).
 
 ## Installation
 
