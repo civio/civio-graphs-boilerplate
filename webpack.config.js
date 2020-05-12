@@ -5,7 +5,7 @@ const MiniCssExtractPlugin = require('mini-css-extract-plugin')
 module.exports = {
   entry: './src/js/main.js',
   output: {
-    filename: '[name].js',
+    filename: '[name].[hash].js',
     path: path.resolve('./dist')
   },
   devtool: 'source-map',
@@ -44,7 +44,7 @@ module.exports = {
       template: 'src/index.html'
     }),
     new MiniCssExtractPlugin({
-      filename: 'main.css'
+      filename: 'main.[hash].css'
     })
   ]
 }
