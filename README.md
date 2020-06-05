@@ -6,11 +6,7 @@ Used for graphs development in [`civio-graphs`](https://github.com/civio/civio-g
 
 ## Installation
 
-```bash
-git clone git@github.com:civio/civio-graphs-boilerplate.git
-cd civio-graphs-boilerplate
-npm install
-```
+Follow the [instructions on creating a new graph](https://github.com/civio/civio-graphs/wiki/Proceso-de-creación-de-gráficos#gráficos) from `civio-graphs`.
 
 ## Features
 
